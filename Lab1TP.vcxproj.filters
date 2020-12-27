@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\SEM5">
+      <UniqueIdentifier>{50709b71-0836-45ea-8fc3-857a8517e33a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\MainMenu">
+      <UniqueIdentifier>{f095f5d2-c1b9-4920-84a4-71de7fc404e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\SEM4">
+      <UniqueIdentifier>{4ac820e1-0b91-4b94-a39d-613b97f9b95d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\SEM3">
+      <UniqueIdentifier>{116589ee-676d-4c05-b683-dc3c2b020145}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Seminar5.cpp">
+      <Filter>Исходные файлы\SEM5</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCreater.cpp">
+      <Filter>Исходные файлы\SEM5</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckFile.cpp">
+      <Filter>Исходные файлы\SEM5</Filter>
+    </ClCompile>
+    <ClCompile Include="Seminar4.cpp">
+      <Filter>Исходные файлы\SEM4</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeroCounter.cpp">
+      <Filter>Исходные файлы\SEM4</Filter>
+    </ClCompile>
+    <ClCompile Include="OutRowsWithoutZero.cpp">
+      <Filter>Исходные файлы\SEM4</Filter>
+    </ClCompile>
+    <ClCompile Include="FindMaxElement.cpp">
+      <Filter>Исходные файлы\SEM4</Filter>
+    </ClCompile>
+    <ClCompile Include="SortArray.cpp">
+      <Filter>Исходные файлы\SEM4</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheker.cpp">
+      <Filter>Исходные файлы\SEM4</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Исходные файлы\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckSizeOfArr.cpp">
+      <Filter>Исходные файлы\SEM4</Filter>
+    </ClCompile>
+    <ClCompile Include="Seminar3.cpp">
+      <Filter>Исходные файлы\SEM3</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckArraySize.cpp">
+      <Filter>Исходные файлы\SEM3</Filter>
+    </ClCompile>
+    <ClCompile Include="SummOfElements.cpp">
+      <Filter>Исходные файлы\SEM3</Filter>
+    </ClCompile>
+    <ClCompile Include="SortAnArray.cpp">
+      <Filter>Исходные файлы\SEM3</Filter>
+    </ClCompile>
+    <ClCompile Include="ProizArray.cpp">
+      <Filter>Исходные файлы\SEM3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
