@@ -78,6 +78,9 @@
     <ClCompile Include="ProizArray.cpp">
       <Filter>Исходные файлы\SEM3</Filter>
     </ClCompile>
+    <ClCompile Include="AmountOfArray.cpp">
+      <Filter>Исходные файлы\SEM3</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Includes.h">

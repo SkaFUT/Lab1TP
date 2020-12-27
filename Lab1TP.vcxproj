@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AmountOfArray.cpp" />
     <ClCompile Include="CheckArraySize.cpp" />
     <ClCompile Include="CheckFile.cpp" />
     <ClCompile Include="CheckSizeOfArr.cpp" />
