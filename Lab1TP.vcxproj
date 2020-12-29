@@ -19,11 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AmountOfArray.cpp" />
     <ClCompile Include="CheckArraySize.cpp" />
     <ClCompile Include="CheckFile.cpp" />
     <ClCompile Include="CheckSizeOfArr.cpp" />
     <ClCompile Include="Cheker.cpp" />
+    <ClCompile Include="ChouseMAX.cpp" />
+    <ClCompile Include="ChouseMIN.cpp" />
     <ClCompile Include="FileCreater.cpp" />
     <ClCompile Include="FindMaxElement.cpp" />
     <ClCompile Include="Main.cpp" />

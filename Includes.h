@@ -25,6 +25,10 @@ bool CheckSizeOfArray(int ROW, int COL);
 
 void Seminar3();
 int CheckArraySize();
-double SummOfElements(int size,double *Array);
+void ProizArray(int size, double* Array);
 void SortAnArray(double* Array, int size);
-double ProizArray(int size, double* Array);
+void SummOfElements(int size, double* Array); 
+int ChouseMAX(double MAX, int size, double* Array);
+int ChouseMIN(double MIN, int size, double* Array);
+
+

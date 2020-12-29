@@ -1,69 +1,50 @@
 #include "pch.h"
 
-double ProizArray(int size, double* Array)
+void ProizArray(int size, double* Array)
 {
 
 	double MIN = 0, MAX = 0,proiz=1;
-	int NumberOfMAX = 0, NumberOfMIN = 0,MAXCount=0,MINCount=0;
+	int NumberOfMAX, NumberOfMIN;
 
 	for (int j = size; j != 0; j--)
 	{
 		if (MIN >= Array[j - 1])
 		{
 			MIN = Array[j - 1];
-			NumberOfMIN = j;
 		}
 	}
+	NumberOfMIN = ChouseMIN(MIN, size, Array);
 	for (int j = 0; j < size; j++)
 	{
 		if (MAX <= Array[j])
 		{
 			MAX = Array[j];
-			NumberOfMAX = j + 1;
 		}
 	}
-	for (int i = 0; i < size; i++)
-	{
-		if (Array[i] == MAX)
-		{
-			MAXCount++;
-			cout << "number MAXs: "<<i<<" ";
-		}
-		if (Array[i])
-		{
-			MINCount++;
-			cout << "number MINs: "<<i << " ";
+	NumberOfMAX=ChouseMAX(MAX, size, Array);
 
-		}
-	}
-	if ((MINCount||MAXCount)>=2)
+	if (fabs(NumberOfMAX - NumberOfMIN) == 1)
 	{
-
+		cout << "Min and Max neighboor";
 	}
 	else
 	{
-
-	}
-
-
-
-
-
-
-	if (NumberOfMIN < NumberOfMAX)
-	{
-		for (; NumberOfMIN + 1 < NumberOfMAX; NumberOfMIN++)
+		if (NumberOfMIN < NumberOfMAX)
 		{
-			proiz = Array[NumberOfMIN] * proiz;
+			NumberOfMIN;
+			for (; NumberOfMIN < NumberOfMAX; NumberOfMIN++)
+			{
+				proiz = Array[NumberOfMIN] * proiz;
+			}
 		}
-
-	}
-	else
-	{
-		for (; NumberOfMAX + 1 < NumberOfMIN; NumberOfMAX++)
+		else
 		{
-			proiz = Array[NumberOfMAX] * proiz;
+			NumberOfMAX;
+			for (; NumberOfMAX < NumberOfMIN; NumberOfMAX++)
+			{
+				proiz = Array[NumberOfMAX] * proiz;
+			}
 		}
+		cout << proiz;
 	}
-
 }

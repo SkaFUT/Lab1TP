@@ -3,6 +3,7 @@
 int CheckArraySize()
 {
 	int n;
+	cout << "Enter size of array: ";
 	cin >> n;
 	for ( ;;)
 	{
@@ -20,7 +21,7 @@ int CheckArraySize()
 			}
 			else
 			{
-				cout << "You enter a right number.";
+				cout << "You enter a right number.\n";
 				break;
 			}
 		}

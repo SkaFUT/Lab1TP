@@ -4,7 +4,7 @@ void Seminar4()
 {
 	system("cls");
 
-	int ROW, COL;
+	int ROW, COL,menu;
 	bool Checking = true;
 	do
 	{
@@ -51,5 +51,7 @@ void Seminar4()
 	{
 		delete[] Array2D[i];
 	}
+	cout << "Press any key.";
+	cin >> menu;
 	Menu();
 }

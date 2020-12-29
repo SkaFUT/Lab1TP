@@ -78,7 +78,10 @@
     <ClCompile Include="ProizArray.cpp">
       <Filter>Исходные файлы\SEM3</Filter>
     </ClCompile>
-    <ClCompile Include="AmountOfArray.cpp">
+    <ClCompile Include="ChouseMAX.cpp">
+      <Filter>Исходные файлы\SEM3</Filter>
+    </ClCompile>
+    <ClCompile Include="ChouseMIN.cpp">
       <Filter>Исходные файлы\SEM3</Filter>
     </ClCompile>
   </ItemGroup>

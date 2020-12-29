@@ -4,7 +4,7 @@ void Seminar5()
 {
 	system("cls");
 
-	int chouse = 0;
+	int chouse = 0,menu;
 	int Number_of_String = 1;
 	string STRING;
 	string S1;
@@ -56,5 +56,7 @@ void Seminar5()
 	}	
 	std::cout <<"Final sentense:"<< S3 << S2 << " " << S1;
 	fin.close();
+	cout << "Press any key.";
+	cin >> menu;
 	Menu();
 }
